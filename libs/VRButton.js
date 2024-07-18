@@ -181,7 +181,7 @@ class VRButton{
 
     stylizeElement( element, active = true, fontSize = 13, ignorePadding = false ) {
 
-        element.style.position = 'absolute';
+        element.style.position = 'center';
         element.style.bottom = '20px';
         if (!ignorePadding) element.style.padding = '12px 6px';
         element.style.border = '1px solid #fff';
