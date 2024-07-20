@@ -24,6 +24,9 @@ class VRButton{
 			const button = document.createElement( 'button' );
 			button.style.display = 'none';
             button.style.height = '40px';
+            button.style.position = 'absolute';
+            button.style.left = '50%';
+            button.style.left = '50%';
             
 			navigator.xr.isSessionSupported( this.sessionMode ).then( ( supported ) => {
 
